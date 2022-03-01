@@ -60,7 +60,6 @@ class MoviesViewController: UIViewController,UITableViewDataSource, UITableViewD
         let synopsis = movie["overview"] as! String
         
         
-        
         cell.titleLabel.text = title
         cell.synopsisLabel.text = synopsis
         
@@ -75,7 +74,20 @@ class MoviesViewController: UIViewController,UITableViewDataSource, UITableViewD
         return cell
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+//        Find selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+//        Pass the selected movie to the details view controller
+        let detailsViewController =  segue.destination as! MovieViewController
+        detailsViewController.movie = movie
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        
+    }
     
     
 
