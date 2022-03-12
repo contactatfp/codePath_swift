@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 # Project 3 - *Twitter*
 
 **Twitter** is a basic twitter app to read your tweets.
 
 Time spent: **X** hours spent in total
+=======
+
+# Twitter - Part I
+
+This is a basic twitter app to read your tweets.
+
+Time spent: 2 hours spent in total
+>>>>>>> b3215ce760af41123eed7181a7ea30bbe5361d56
 
 ## User Stories
 
@@ -25,8 +34,11 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/contactatfp/codePath/blob/main/walkthrough-twitter2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> b3215ce760af41123eed7181a7ea30bbe5361d56
 # Flix
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
