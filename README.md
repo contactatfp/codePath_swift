@@ -3,15 +3,11 @@
 
 **Twitter** is a basic twitter app to read your tweets.
 
-Time spent: **X** hours spent in total
-=======
-
 # Twitter - Part I
 
 This is a basic twitter app to read your tweets.
 
 Time spent: 2 hours spent in total
->>>>>>> b3215ce760af41123eed7181a7ea30bbe5361d56
 
 ## User Stories
 
