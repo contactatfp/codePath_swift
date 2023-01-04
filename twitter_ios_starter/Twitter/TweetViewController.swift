@@ -14,7 +14,6 @@ class TweetViewController: UIViewController {
         super.viewDidLoad()
         tweetTextView.becomeFirstResponder()
 
-        
     }
 
     @IBOutlet weak var tweetTextView: UITextView!

@@ -78,8 +78,7 @@ class HomeTableViewController: UITableViewController {
             loadMoreTweets()
         }
     }
-    
-    
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "tweetCell", for: indexPath) as! TweetCellTableViewCell
         print(tweetArray)
